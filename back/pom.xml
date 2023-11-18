@@ -14,7 +14,10 @@
     <version>${revision}</version>
     <packaging>pom</packaging>
     <name>Fiscal Helper</name>
-    <description>Link Vault</description>
+    <description>Fiscal Helper</description>
+    <modules>
+        <module>fiscalhelper--bff</module>
+    </modules>
 
     <properties>
         <revision>1.0.0</revision>
@@ -22,7 +25,9 @@
         <mapstruct.version>1.5.5.Final</mapstruct.version>
         <lombok.version>1.18.30</lombok.version>
     </properties>
+
     <dependencies>
+        <!-- Spring Boot -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
@@ -43,9 +48,9 @@
     </dependencies>
 
     <scm>
-        <connection>scm:git:https://github.com/jugurta/micro-saas.git</connection>
-        <developerConnection>scm:git:https://github.com/jugurta/micro-saas.git</developerConnection>
-        <url>https://github.com/jugurta/micro-saas.git</url>
+        <connection>scm:git:https://github.com/jugurta/fiscalhelper.git</connection>
+        <developerConnection>scm:git:https://github.com/jugurta/fiscalhelper.git</developerConnection>
+        <url>https://github.com/jugurta/fiscalhelper.git</url>
         <tag>HEAD</tag>
     </scm>
 
