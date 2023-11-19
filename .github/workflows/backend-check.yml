@@ -1,0 +1,17 @@
+name: Pull Request Back-End Check & Build
+
+on:
+  pull_request:
+    types: [ opened, reopened, synchronize, ready_for_review ]
+    branches:
+      - main
+    paths:
+      - "back/**"
+
+jobs:
+  do-nothing:
+    if: '! github.event.pull_request.draft'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Do nothing
+        run: echo "This is not a draft PR, so we will do nothing."
