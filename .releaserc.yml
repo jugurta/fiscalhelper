@@ -6,7 +6,7 @@ plugins:
   - "@semantic-release/commit-analyzer"
   - "@semantic-release/release-notes-generator"
   - "@semantic-release/changelog"
- # - "@semantic-release/exec"
+  - "@semantic-release/exec"
 
 analyzeCommits:
   - path: "@semantic-release/commit-analyzer"
@@ -41,7 +41,6 @@ generateNotes:
     types:
       - type: "feat"
       - section: "Features"
-      # Tracked bug fix with a hotfix branch
       - type: "fix"
       - section: "Bug Fixes"
       - type: "docs"
@@ -59,8 +58,8 @@ generateNotes:
     presetConfig: true
 
 prepare:
- # - path: "@semantic-release/exec"
- #   prepareCmd: "./.github/scripts/prepare-release.sh ${nextRelease.version}"
+  - path: "@semantic-release/exec"
+    prepareCmd: "./.github/scripts/prepare-release.sh ${nextRelease.version}"
   - path: "@semantic-release/git"
     assets:
       - "CHANGELOG.md"
