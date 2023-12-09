@@ -1,7 +1,7 @@
 branches: "main"
 preset: "angular"
 tagFormat: "${version}"
-repositoryUrl: "https://github.com/jugurta/phonebook.git"
+repositoryUrl: "https://github.com/jugurta/fiscalhelper.git"
 plugins:
   - "@semantic-release/commit-analyzer"
   - "@semantic-release/release-notes-generator"
