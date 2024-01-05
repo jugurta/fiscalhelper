@@ -38,7 +38,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [jugurta/fiscalhelper](https://github.com/jugurta/fiscalhelper)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|18<br/>Tools used|12/10/23 <br/>Report generated|
+|19<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -156,7 +156,17 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (7)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (8)</h2>
+
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (4)
+
+|NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
+|:------|:------|:------|:------|:------|:------|
+|[husky](https://www.npmjs.com/husky)|v8.0.3|11/19/23|Jugurtha AIT OUFELLA |MIT|N/A|
+|[nuxt](https://www.npmjs.com/nuxt)|v3.8.1|11/19/23|Jugurtha AIT OUFELLA |MIT|N/A|
+|[vue](https://www.npmjs.com/vue)|v3.3.8|11/18/23|Jugurtha AIT OUFELLA |MIT|N/A|
+|[vue-router](https://www.npmjs.com/vue-router)|v4.2.5|11/18/23|Jugurtha AIT OUFELLA |MIT|N/A|
+
 
 ## <img width='24' height='24' src='https://img.stackshare.io/package_manager/977/default_9833f2ef0bbc2a946b4cc5e9307264033361076b.png'/> Apache Maven (4)
 
@@ -166,15 +176,6 @@ Full tech stack [here](/techstack.md)
 |[org.springframework.boot:spring-boot-starter-actuator](https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-actuator)|N/A|11/19/23|Jugurtha AIT OUFELLA |Apache-2.0|N/A|
 |[org.springframework.boot:spring-boot-starter-test](https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-test)|N/A|11/19/23|Jugurtha AIT OUFELLA |Apache-2.0|N/A|
 |[org.springframework.boot:spring-boot-starter-web](https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-web)|N/A|11/18/23|Jugurtha AIT OUFELLA |Apache-2.0|N/A|
-
-
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (3)
-
-|NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
-|:------|:------|:------|:------|:------|:------|
-|[nuxt](https://www.npmjs.com/nuxt)|v3.8.1|11/19/23|Jugurtha AIT OUFELLA |MIT|N/A|
-|[vue](https://www.npmjs.com/vue)|v3.3.8|11/18/23|Jugurtha AIT OUFELLA |MIT|N/A|
-|[vue-router](https://www.npmjs.com/vue-router)|v4.2.5|11/18/23|Jugurtha AIT OUFELLA |MIT|N/A|
 
 <br/>
 <div align='center'>
