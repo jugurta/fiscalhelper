@@ -2,7 +2,7 @@ repo_name: jugurta/fiscalhelper
 report_id: 3dc54e7da6ad289d5a891f9798f23200
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:26:05+00:00'
+timestamp: '2024-02-29T19:00:21+00:00'
 requested_by: semantic-release-bot
 provider: github
 branch: main
